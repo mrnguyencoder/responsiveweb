@@ -23,5 +23,32 @@ body {
     background-color: var(--color-navy3);
     font-size: 1rem;
 }
+/* Navigation bar  */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--color-navy2);
+    padding-top: 1rem;
+}
+.nav__logo img {
+    width: 150px;
+    padding-left: 1rem;
+}
+.nav__toggler {
+    padding-right: 1rem;
+    color: var(--color-white);
+}
+.nav__list {
+    width: 100%;
+    list-style: none;
+    line-height: 2rem;
+}
+.nav__item {
 
+}
+.nav__item > a {
+    color: var(--color-white);
+    text-decoration: none;
+}
 
