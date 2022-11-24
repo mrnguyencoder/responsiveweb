@@ -28,6 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    background: var(--color-navy2);
 }
 .nav-logo img {
     max-width: 150px;
@@ -42,7 +43,7 @@ body {
 }
 .nav {
     position: fixed;
-    background: var(--color-navy2);
+    background: var(--color-navy1);
     z-index: 100;
     inset: 0;
     transform: translateX(100%);
@@ -72,4 +73,32 @@ body {
 
 .nav-open .nav-toggler {
     position: fixed;
+}
+
+#aboutme {
+    height: 100vh;
+}
+#projects {
+    height: 100vh;
+}
+#blogs {
+    height: 100vh;
+}
+#contact {
+    height: 100vh;
+}
+
+.footer {
+    background: var(--color-navy2);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.footer__logo img {
+    max-width: 150px;
+}
+.contact__icon {
+    max-width: 40px;
+    display: flex;
+    
 }
